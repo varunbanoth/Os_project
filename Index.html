@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Round Robin CPU Scheduling Simulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Round Robin CPU Scheduling Simulator</h1>
+
+        <input type="text" id="processes"
+            placeholder="Enter Process IDs (P1 P2 P3 P4)">
+
+        <input type="text" id="burstTimes"
+            placeholder="Enter Burst Times (5 4 2 7)">
+
+        <input type="number" id="quantum"
+            placeholder="Enter Time Quantum">
+
+        <button onclick="simulate()">Run Simulation</button>
+
+        <h2>Output</h2>
+        <pre id="output"></pre>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
